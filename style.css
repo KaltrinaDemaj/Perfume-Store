@@ -79,3 +79,18 @@ header .nav-menu .nav-links a:hover {
 header .nav-menu .nav-links a#products {
     padding: 0 25px;
 }
+
+header .nav-menu .nav-buttons a.button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(254, 107, 61);
+    transition: color 0.35s, background-color 0.35s;
+    padding: 10px 15px;
+    font-weight: 900;
+    border-radius: 30px;
+    font-size: 0.8em;
+}
+
+header .nav-menu .nav-buttons a.button:hover {
+    background-color: black;
+    color: rgb(254, 107, 61);
+}
