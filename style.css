@@ -60,3 +60,7 @@ header .nav-menu .nav-logo a {
     justify-content: center;
     align-items: center;
 }
+
+header .nav-menu .nav-logo a img {
+    width: 90px;
+}
