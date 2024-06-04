@@ -44,3 +44,19 @@ body {
 header {
     padding: 0 100px;
 }
+
+header .nav-menu {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+header .nav-menu .nav-logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
