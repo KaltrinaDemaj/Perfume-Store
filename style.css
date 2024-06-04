@@ -40,3 +40,7 @@ body {
     background-color: rgb(230, 230, 230);
     background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(rgb(196, 186, 186)), to(rgb(160, 160, 160)), color-stop(0.8, rgb(182, 182, 182)));
 }
+
+header {
+    padding: 0 100px;
+}
