@@ -14,3 +14,12 @@ a::after {
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Comfortaa", cursive;
+    background-color: rgb(230, 230, 230);
+}
