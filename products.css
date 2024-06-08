@@ -95,3 +95,9 @@ main .our-store .our-store-images-top .cards {
     align-items: center;
     text-align: center;
 }
+
+main .our-store .our-store-images-top .cards .five-stars-img {
+    height: 20px;
+    width: 100px;
+    margin: 10px 0 15px 0;
+}
