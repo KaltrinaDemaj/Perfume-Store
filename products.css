@@ -115,3 +115,18 @@ main .our-store .our-store-images-top .cards h2 {
     color: rgb(254, 107, 61);
     padding-bottom: 15px;
 }
+
+main .our-store .our-store-images-top .cards a.button {
+    padding: 12px 20px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: color ease-out 0.3s, background-color ease-out 0.3s;
+}
+
+main .our-store .our-store-images-top .cards a.button:hover {
+    background-color: black;
+    color: rgb(254, 107, 61);
+}
