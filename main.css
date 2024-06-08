@@ -51,3 +51,16 @@ header .header-container .header-description a.button {
 header .header-container .header-description a.button:hover {
     background-color: black;
 }
+
+header .header-container .header-images {
+    padding-right: 20px;
+}
+
+header .header-container .header-images img {
+    width: 300px;
+    height: 400px;
+    padding: 0 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: rotate(5deg);
+}
