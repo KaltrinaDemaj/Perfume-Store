@@ -81,3 +81,10 @@ main .our-store {
 main .our-store h1 {
     font-size: 2.8em;
 }
+
+main .our-store .our-store-images-top {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
