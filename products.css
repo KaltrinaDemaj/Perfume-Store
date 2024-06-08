@@ -101,3 +101,17 @@ main .our-store .our-store-images-top .cards .five-stars-img {
     width: 100px;
     margin: 10px 0 15px 0;
 }
+
+main .our-store .our-store-images-top .cards h1 {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+main .our-store .our-store-images-top .cards h2 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(254, 107, 61);
+    padding-bottom: 15px;
+}
