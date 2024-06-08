@@ -68,3 +68,12 @@ main::after {
     top: 10%;
     left: 80%;
 }
+
+main .our-store {
+    padding: 200px 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
