@@ -20,3 +20,22 @@ header .nav-links a#home {
 header .nav-links a#home:hover {
     color: black;
 }
+
+header .header-container {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-container .header-description h3 {
+    letter-spacing: 1px;
+}
+
+header .header-container .header-description h1 {
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 70px;
+    padding: 35px 0;
+}
