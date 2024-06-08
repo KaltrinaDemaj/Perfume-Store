@@ -27,3 +27,8 @@ header .header-description {
     justify-content: center;
     align-items: center;
 }
+
+header .header-description h3 {
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
