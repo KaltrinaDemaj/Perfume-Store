@@ -64,3 +64,8 @@ header .header-container .header-images img {
     object-fit: cover;
     transform: rotate(5deg);
 }
+
+header .divider {
+    width: 100%;
+    background-color: aqua;
+}
