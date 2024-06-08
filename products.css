@@ -32,3 +32,11 @@ header .header-description h3 {
     letter-spacing: 1px;
     padding-bottom: 40px;
 }
+
+header .header-description h1 {
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-align: center;
+}
