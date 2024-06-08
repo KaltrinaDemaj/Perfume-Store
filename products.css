@@ -40,3 +40,9 @@ header .header-description h1 {
     line-height: 70px;
     text-align: center;
 }
+
+main {
+    width: 100vw;
+    padding: 120px 0;
+    position: relative;
+}
