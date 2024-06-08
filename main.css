@@ -69,3 +69,31 @@ header .divider {
     width: 100%;
     background-color: aqua;
 }
+
+main {
+    width: 100vw;
+    padding: 120px 0;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(254, 107, 61);
+    opacity: 0.75;
+    top: 10%;
+    left: 20%;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(254, 107, 61);
+    opacity: 0.9;
+    top: 10%;
+    left: 80%;
+}
