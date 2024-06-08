@@ -20,3 +20,10 @@ header .nav-links a#products {
 header .nav-links a#products:hover {
     color: black;
 }
+
+header .header-description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
