@@ -124,3 +124,9 @@ main .new-collection .new-collection-images .cards {
     align-items: center;
     text-align: center;
 }
+
+main .new-collection .new-collection-images .cards .five-stars-img {
+    height: 20px;
+    width: 100px;
+    margin: 10px 0 15px 0;
+}
