@@ -129,3 +129,26 @@ main .contact-container .contact-left-section #contact-form .contact-left-wrappe
     letter-spacing: 1px;
     background: none;
 }
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .input-wrapper textarea#contact-description {
+    background: none;
+    color: white;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 5px;
+}
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .input-wrapper .error-msg {
+    font-size: 0.7em;
+    color: red;
+}
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .input-wrapper #contact-description {
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 0 0 7px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+}
