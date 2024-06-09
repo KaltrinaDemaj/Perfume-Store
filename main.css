@@ -130,3 +130,9 @@ main .new-collection .new-collection-images .cards .five-stars-img {
     width: 100px;
     margin: 10px 0 15px 0;
 }
+
+main .new-collection .new-collection-images .cards h1 {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
