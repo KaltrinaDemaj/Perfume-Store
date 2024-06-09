@@ -94,3 +94,13 @@ main .contact-container .contact-left-section #contact-form .contact-left-wrappe
 main .contact-container .contact-left-section #contact-form .contact-left-wrapper h1 {
     font-size: 1.7em;
 }
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .contact-submit-success {
+    display: none;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    background: rgb(20, 123, 20);
+    color: #fff;
+    padding: 10px 5px;
+}
