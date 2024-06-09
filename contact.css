@@ -82,3 +82,15 @@ main .contact-container .contact-left-section #contact-form {
     justify-content: center;
     align-items: center;
 }
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper h1 {
+    font-size: 1.7em;
+}
