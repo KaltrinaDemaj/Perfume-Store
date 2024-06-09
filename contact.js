@@ -19,3 +19,16 @@ const regexEmail =
 const regexPhone = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
 
 const regexDescription = /^\S.*(?:\r?\n\S.*)*$/u;
+
+contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+ 
+    resetErrors();
+    contactSuccessAlert.style.display = "none";
+    contactSuccessAlert.textContent = "";
+ 
+    if (validateForm()) {
+       contactSuccessAlert.textContent = "Form submitted successfully";
+       contactSuccessAlert.style.display = "block";
+    }
+ });
