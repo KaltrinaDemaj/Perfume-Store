@@ -152,3 +152,22 @@ main .contact-container .contact-left-section #contact-form .contact-left-wrappe
     color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
 }
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper button {
+    border-radius: 5px;
+    padding: 15px 0;
+    outline: none;
+    background-color: rgb(254, 107, 61);
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    transition: background-color linear 0.2s, color linear 0.2s;
+}
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper button:hover {
+    background-color: #000000;
+    color: rgb(254, 107, 61);
+}
