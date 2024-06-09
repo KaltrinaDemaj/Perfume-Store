@@ -104,3 +104,28 @@ main .contact-container .contact-left-section #contact-form .contact-left-wrappe
     color: #fff;
     padding: 10px 5px;
 }
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .input-wrapper h6 {
+    margin-bottom: 4px;
+    color: white;
+    font-size: 0.9em;
+}
+
+main .contact-container .contact-left-section #contact-form .contact-left-wrapper .input-wrapper input {
+    padding: 12px 0 12px 8px;
+    outline: none;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+    background: none;
+}
