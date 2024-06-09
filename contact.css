@@ -63,3 +63,22 @@ main .contact-container {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
     color: white;
 }
+
+main .contact-container .contact-left-section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+main .contact-container .contact-left-section #contact-form {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
