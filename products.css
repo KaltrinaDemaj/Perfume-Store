@@ -216,3 +216,26 @@ main .body-spray-container::before {
     left: 50%;
     margin-left: -20px;
 }
+
+main .body-spray-container img {
+    width: 30vw;
+}
+
+main .body-spray-container .body-spray-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -100px;
+}
+
+main .body-spray-container .body-spray-description h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+main .body-spray-container .body-spray-description h2 {
+    padding: 30px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(254, 107, 61);
+}
