@@ -32,3 +32,10 @@ contactForm.addEventListener("submit", function (e) {
        contactSuccessAlert.style.display = "block";
     }
  });
+
+ function resetErrors() {
+    nameError.textContent = "";
+    emailError.textContent = "";
+    phoneError.textContent = "";
+    descriptionError.textContent = "";
+ }
