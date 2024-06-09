@@ -180,3 +180,14 @@ main .our-store .our-store-images-bottom .cards a.button {
     border-radius: 2px;
     transition: color ease-out 0.3s, background-color ease-out 0.3s;
 }
+
+main .our-store .our-store-images-bottom .cards a.button:hover {
+    background-color: black;
+    color: rgb(254, 107, 61);
+}
+
+main .our-store .our-store-images-bottom .cards img.store-perfumes {
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 0 2px 1px rgb(117, 117, 117);
+}
