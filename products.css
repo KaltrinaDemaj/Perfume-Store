@@ -156,3 +156,27 @@ main .our-store .our-store-images-bottom .cards .five-stars-img {
     width: 100px;
     margin: 10px 0 15px 0;
 }
+
+main .our-store .our-store-images-bottom .cards h1 {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+main .our-store .our-store-images-bottom .cards h2 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(254, 107, 61);
+    padding-bottom: 15px;
+}
+
+main .our-store .our-store-images-bottom .cards a.button {
+    padding: 12px 20px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: color ease-out 0.3s, background-color ease-out 0.3s;
+}
