@@ -54,3 +54,14 @@ main .login-container {
     background-size: cover;
     border-radius: 25px;
 }
+
+main .login-container .login-section {
+    width: 40%;
+    height: 85%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
