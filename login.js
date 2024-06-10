@@ -24,3 +24,17 @@ function resetErrors() {
     usernameError.textContent = "";
     passwordError.textContent = "";
 }
+
+function validateForm() {
+    let isValid = true;
+ 
+    if (usernameInput.value === "" || usernameInput.value < 3) {
+       usernameError.textContent = "Username is invalid";
+       isValid = false;
+    }
+    if (!passwordInput || passwordInput.value.length < 6) {
+       passwordError.textContent = "Password is invalid";
+       isValid = false;
+    }
+    return isValid;
+ }
