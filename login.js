@@ -9,13 +9,18 @@ const passwordError = document.querySelector(".password-error");
 
 loginForm.addEventListener("submit", function (e) {
     e.preventDefault();
- 
+
     resetErrors();
     loginSuccessAlert.style.display = "none";
     loginSuccessAlert.textContent = "";
- 
+
     if (validateForm()) {
-       loginSuccessAlert.textContent = "Logged in successfully";
-       loginSuccessAlert.style.display = "block";
+        loginSuccessAlert.textContent = "Logged in successfully";
+        loginSuccessAlert.style.display = "block";
     }
- });
+});
+
+function resetErrors() {
+    usernameError.textContent = "";
+    passwordError.textContent = "";
+}
