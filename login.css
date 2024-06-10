@@ -17,3 +17,13 @@ header .nav-menu .nav-links a {
 header .nav-menu .nav-links a:hover {
     color: white;
 }
+
+header .nav-buttons a#signup-btn {
+    font-weight: bold;
+    color: black;
+}
+
+header .nav-buttons a#signup-btn:hover {
+    background-color: rgb(21, 21, 21);
+    color: rgb(254, 107, 61);
+}
