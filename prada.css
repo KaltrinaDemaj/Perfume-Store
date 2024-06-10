@@ -62,3 +62,23 @@ main .product-container .product-description p {
     letter-spacing: 1px;
     padding-bottom: 30px;
 }
+
+main .product-container .product-description h4 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-bottom: 75px;
+    color: rgb(254, 107, 61);
+}
+
+main .product-container .product-description a.button {
+    width: 45%;
+    padding: 20px 70px;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: background-color ease-out 0.3s, color ease-out 0.3s;
+}
