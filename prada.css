@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+main .product-container {
+    width: 100vw;
+    padding: 75px 100px 200px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .product-container .product-image {
+    width: 45%;
+}
+
+main .product-container .product-image img {
+    width: 35vw;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+main .product-container .product-description {
+    width: 50%;
+    height: 5vh;
+    padding-top: 25px;
+    padding-right: 50px;
+}
