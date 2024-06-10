@@ -30,3 +30,35 @@ main .product-container .product-description {
     padding-top: 25px;
     padding-right: 50px;
 }
+
+main .product-container .product-description h1 {
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+
+main .product-container .product-description h3 {
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+main .product-container .product-description h2 {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+main .product-container .product-description h2::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(254, 107, 61);
+    bottom: 0;
+    left: 0;
+}
+
+main .product-container .product-description p {
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
