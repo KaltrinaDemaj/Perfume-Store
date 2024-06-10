@@ -89,3 +89,26 @@ main .login-container .login-section #login-form .login-wrapper .login-submit-su
     color: #fff;
     padding: 10px 5px;
 }
+
+main .login-container .login-section #login-form .login-wrapper .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+main .login-container .login-section .login-wrapper input {
+    width: 250px;
+    height: 40px;
+    border-radius: 2px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+}
