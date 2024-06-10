@@ -65,3 +65,17 @@ main .login-container .login-section {
     justify-content: flex-start;
     align-items: center;
 }
+
+main .login-container .login-section .login-wrapper {
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+main .login-container .login-section .login-wrapper h1 {
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    font-size: 2.7em;
+}
