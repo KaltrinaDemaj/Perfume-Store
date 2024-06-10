@@ -31,3 +31,25 @@ function resetErrors() {
     passwordError.textContent = "";
  }
  
+ function validateForm() {
+   let isValid = true;
+
+   if (!usernameInput.value) {
+      usernameError.textContent = "Username cannot be empty";
+      isValid = false;
+   }
+   if (usernameInput.value < 3) {
+      usernameError.textContent = "Username should be at least 3 letters";
+      isValid = false;
+   }
+   if (!regexEmail.test(emailInput.value)) {
+      emailError.textContent = "Email is not valid";
+      isValid = false;
+   }
+   if (!passwordInput || passwordInput.value.length < 6) {
+      passwordError.textContent = "Password should be at least 6 letters";
+      isValid = false;
+   }
+
+   return isValid;
+}
