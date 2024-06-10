@@ -129,3 +129,7 @@ main .login-container .login-section .login-wrapper :-ms-input-placeholder {
 main .login-container .login-section .login-wrapper ::placeholder {
     color: white;
 }
+
+main .login-container .login-section .login-wrapper input#username-input {
+    margin-bottom: 10px;
+}
