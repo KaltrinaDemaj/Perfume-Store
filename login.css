@@ -175,3 +175,8 @@ main .login-container .login-section .login-wrapper h3 a {
 main .login-container .login-section .login-wrapper h3 a:hover {
     color: white;
 }
+
+main .login-container .blank-section {
+    width: 45%;
+    height: 85%;
+}
