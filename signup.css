@@ -28,3 +28,58 @@ header .nav-menu .nav-buttons a#login-btn:hover {
     background-color: rgb(21, 21, 21);
     color: rgb(254, 107, 61);
 }
+
+main {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(10, 10, 10);
+    -webkit-animation: 1s ease-out 0s 1 fade-in;
+    animation: 1s ease-out 0s 1 fade-in;
+}
+
+main .signup-container {
+    height: 70vh;
+    width: 65vw;
+    background-color: rgb(141, 190, 190);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    background-image: url("images/login-signup-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+main .signup-container .signup-section {
+    width: 40%;
+    height: 85%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .signup-container .signup-section #signup-form {
+    width: 100%;
+}
+
+main .signup-container .signup-section #signup-form .signup-wrapper {
+    width: 77%;
+    height: 80%;
+    color: white;
+    padding-left: 50px;
+}
+
+main .signup-container .signup-section #signup-form .signup-wrapper h1 {
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    font-size: 2.3em;
+}
