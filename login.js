@@ -6,3 +6,16 @@ const passwordInput = document.querySelector("#login-password");
 
 const usernameError = document.querySelector(".username-error");
 const passwordError = document.querySelector(".password-error");
+
+loginForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+ 
+    resetErrors();
+    loginSuccessAlert.style.display = "none";
+    loginSuccessAlert.textContent = "";
+ 
+    if (validateForm()) {
+       loginSuccessAlert.textContent = "Logged in successfully";
+       loginSuccessAlert.style.display = "block";
+    }
+ });
