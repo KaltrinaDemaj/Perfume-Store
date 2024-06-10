@@ -112,3 +112,8 @@ main .login-container .login-section .login-wrapper input {
     font-family: "Montserrat", sans-serif;
     font-size: 0.9em;
 }
+
+main .login-container #login-form .login-wrapper .input-wrapper .error-msg {
+    font-size: 0.7em;
+    color: red;
+}
