@@ -24,3 +24,10 @@ signupForm.addEventListener("submit", function (e) {
       signupSuccessAlert.style.display = "block";
    }
 });
+
+function resetErrors() {
+    usernameError.textContent = "";
+    emailError.textContent = "";
+    passwordError.textContent = "";
+ }
+ 
