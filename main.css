@@ -213,6 +213,23 @@ main .body-spray-container .body-spray-description a.button:hover {
     color: white;
 }
 
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
+.body-spray-container img {
+    animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+
 main .client-showcase {
     width: 100vw;
     padding: 100px 100px 0 100px;
