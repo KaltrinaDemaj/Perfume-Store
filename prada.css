@@ -96,6 +96,10 @@ main .product-container .product-description a.button#buy-now-btn {
     padding: 20px 85px;
 }
 
+main .audio-section {
+    padding: 30px 0;
+}
+
 main .recommended-section {
     width: 100vw;
     padding: 0 100px;
