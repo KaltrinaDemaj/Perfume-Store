@@ -256,6 +256,28 @@ main .body-spray-container .body-spray-description a.button:hover {
     color: white;
 }
 
+@keyframes sway {
+    0% {
+        transform: rotate(0deg); 
+    }
+    25% {
+        transform: rotate(5deg); 
+    }
+    50% {
+        transform: rotate(0deg); 
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg); 
+    }
+}
+
+.body-spray-container img {
+    animation: sway 4s ease-in-out infinite; 
+}
+
 main .client-showcase {
     width: 100vw;
     padding: 100px 100px 0 100px;
